@@ -27,9 +27,6 @@ app.get("/ping", (req, res, next) => {
   res.send({ ping: "pong" });
 });
 
-// app.listen(PORT, () => {
-//         console.log(`listening on port ${PORT}`);
-//       });
 
 /**
  * Get event
